@@ -1,0 +1,25 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue
+}
+
+body{
+    background-color: #000000;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.fotodeperfil{
+    clip-path:ellipse(50%);
+    height: 400px;
+    width: 300px;
+    opacity: 0.6;
+}
+
+.datos{
+    
+    font-size: 18px;
+}
+
