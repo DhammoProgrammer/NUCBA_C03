@@ -4,7 +4,7 @@
 }
 
 body{
-    background: linear-gradient(blue, pink);
+    background: linear-gradient(blue, #ffc0cb);
 }
 
 .titulo{
@@ -22,7 +22,15 @@ body{
 .datos{
     
     font-size: 18px;
+    
 }
+
+.sobremi{
+    color: #ffc0cb;
+    text-align: center;
+    text-shadow: #180a68 0.10em 0.10em;
+}
+
 
 input[type="text"],
 input[type="email"]{
