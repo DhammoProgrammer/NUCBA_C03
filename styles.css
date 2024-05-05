@@ -9,7 +9,7 @@ body{
 
 .titulo{
     text-align: center;
-    text-shadow: 1, #fffafa;
+    color: #c69af0;
 }
 
 .fotodeperfil{
@@ -28,7 +28,7 @@ body{
 .sobremi{
     color: #ffc0cb;
     text-align: center;
-    text-shadow: #180a68 0.10em 0.10em;
+    text-shadow: #180a68 0.10em 0.10em
 }
 
 
