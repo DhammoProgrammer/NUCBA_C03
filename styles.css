@@ -1,6 +1,9 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:aliceblue
+    color:aliceblue;
+    padding: 0px;
+    margin: 0px;
+    
 }
 
 body{
@@ -9,62 +12,57 @@ body{
 
 .titulo{
     text-align: center;
-    color: #c69af0;
+    color: #c4c2c5;
 }
 
 .fotodeperfil{
-    
+
+    display: block;
+    margin: 0px;
     height: 400px;
     width: 300px;
+    border-radius: 15% 50% 8%;
+    padding: 1.2rem;
+    filter: contrast(82%);
     
 }
 
 .datos{
+    display: block;
     
     font-size: 18px;
+    margin: auto;
+    padding: 20px 1.2rem;
+    width: 25%;
+ }
+
+ /*Div "Sobre Mí"*/
+ .cajasobremi{
+    text-align: center;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+
+ }
+.sobremi{
+    padding: 10px 0px 10px 0px;
+    
+    display: block;
+}
+.parrafo{
+    padding:2px 0px 2px 0px ;
+    display: inline-block;
+    width: 25%;
+    height: 200px;
     
 }
 
-.sobremi{
-    color: #ffc0cb;
-    text-align: center;
-    text-shadow: #180a68 0.10em 0.10em
-}
 
-
-input[type="text"],
-input[type="email"]{
-  border: 2px solid #000;
-  margin: 0 0 1em 0;
-  padding: 10px;
-  width: auto;
-
-}
-textarea{
-  border: 2px solid #000;
-  margin: 0 0 1em 0;
-  padding: 10px;
-  width: auto;
-  color:#000;
-
-}
-
-button{
-    border: 2px solid #000;
-    color:#000;
-}
-
-.datospersonales{
-    color: #000;
-}
-.descripcionpersonal{
-    color: #000;
-}
-label{
-    color: #000;
-}
-
-fieldset{
-    border-color: #000;
-   
-}
