@@ -8,62 +8,104 @@
 
 body{
     background: linear-gradient(blue, #ffc0cb);
+    
 }
 
 .titulo{
     text-align: center;
     color: #c4c2c5;
+    padding-bottom: 2px;
 }
 
 .fotodeperfil{
 
     display: block;
     margin: 0px;
-    height: 400px;
-    width: 300px;
+    height: 280px;
+    width: 250px;
     border-radius: 15% 50% 8%;
-    padding: 1.2rem;
+    padding: 1rem;
     filter: contrast(82%);
     
 }
 
 .datos{
-    display: block;
-    
+    display:inline-block;
+    position: relative;
+    top: -200px;
     font-size: 18px;
-    margin: auto;
-    padding: 20px 1.2rem;
+    margin: 0.2rem;
+    padding: 0px;
+    padding-left: 22%;
     width: 25%;
  }
 
  /*Div "Sobre Mí"*/
  .cajasobremi{
-    text-align: center;
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.14);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(1.5px);
-    -webkit-backdrop-filter: blur(1.5px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: 12px;
+    position: relative;
+    top: -400px; left: 40px;
+    
+    font-size: 16px;
+    margin:auto;
+    padding-left: 45%;
+    margin-bottom: 10px;
     display: inline-block;
     width: 450px;
-    height: 350px;
+    height: 200px;
+}
 
- }
- 
-.sobremi{
-    padding: 10px 0px 10px 0px;
+fieldset{
+
+    position: relative;
+    top: -340px; left: 12%;
+    display: block;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    /*Glassmorphism*/
+    background-color: #b373cc ;
+    box-shadow: 0 4px 20px #00008b;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color:#0000ff;
+    border-color: #ffc0cb;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    /**/
+    border-radius: 7px;
+    width: 250px
+    
+
+
+}
+input{
     
     display: block;
+    margin-top: 2px;
+    border-color:#fcfcfc;
+    border-radius: 10px;
+    width: 250px;
+    
+    background-color: #b373cc;
 }
-.parrafo{
-    padding:2px 0px 2px 0px ;
-    display: inline-block;
-    width: 25%;
-    height: 200px;
+
+legend{
+    margin-bottom: 4px;
+    position: fixed;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold
     
 }
-
-
+.datospersonales{
+    display: block;
+    margin-top: -35px;
+}
+textarea{
+    height: 200px;
+    margin-top: 30px;
+    border-color: #fff;
+    border-radius: 6px;
+    display: block;
+    width: 250px;
+    background-color: #b373cc;
+}
