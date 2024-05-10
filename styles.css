@@ -48,6 +48,7 @@ body{
 .contenidos{
     width: 50vw;
     display: flex;
+    padding-top: 22px;
 }
 
 .formulario{
@@ -55,24 +56,43 @@ body{
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .formulario form{
     display: flex;
     flex-direction: column;
+    
 }
 
 .formulario form input::placeholder{
     opacity: 1;
     color: #0000ff;
 }
+.formulario form input{
+    background-color: #8766e4;
+    border-radius: 5px;
+    opacity: 0.6;
+}
 
 .formulario form textarea::placeholder{
     opacity: 1;
-    color: #e2dfdf;
+    color: #0000ff;
 }
 
 .formulario form textarea{
-    background-color: #e2dfdf;
+    background-color:  #8766e4;
+    opacity: 0.6;
+    border-radius: 5px;
     resize: none;
+}
+
+button{
+    border-radius: 12px;
+    color: #0000ff;
+    opacity: 0.8;
 }
